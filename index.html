@@ -1,1 +1,186 @@
-Hello World
+<!DOCTYPE html>
+
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script>
+	   $(document).ready(function(){
+	       $(window).bind('scroll', function() {
+	       var navHeight = 360;
+	             if ($(window).scrollTop() > navHeight) {
+	                 $('nav').addClass('fixed');
+	             }
+	             else {
+	                 $('nav').removeClass('fixed');
+	             }
+	        });
+	    });
+	</script>
+</head>
+
+<body>
+	<div id='container'>
+		<div id='main-page'>
+			<div id='left-main-col'>
+				<a href='index.html'><img class='cover' id='cover1' src="Assets/cover_1.JPG"></a>
+				<!-- <img class='cover' id='cover2' src="Assets/cover_2.JPG"> -->
+			</div>
+			<div id='left-sub-col'>
+				<nav>
+					<p id='main-msg'>feeling hac-ky?<br>stay close.</p>
+					<a href='index.html'><button type='button' class='link' id='link1'>Home</button></a><br>
+					<a href='bio.html'><button type='button' class='link' id='link3'>About Me</button></a><br>
+					<a href='portfolio.html'><button type='button' class='link' id='link2'>Portfolio</button></a><br>
+					<a href='archive.html'><button type='button' class='link' id='link4'>Archive</button></a><br>
+					<a href='contact.html'><button type='button' class='link' id='link5'>Contact</button></a>
+				</nav>
+			</div>
+
+			<div id='right-main-column'>
+				<div class='post'>
+					<div class='personal_posts'>
+						<div id='post8'>
+							<h1></h1>
+							<p>
+								
+								<br><br>
+								<i>June 4, 2014 (W)</i>
+							</p>
+						</div>
+
+
+						<div id='post7'>
+							<h1></h1>
+							<p>
+								
+								<br><br>
+								<i>June 3, 2014 (T)</i>
+							</p>
+						</div>
+
+
+						<div id='post6'>
+							<h1></h1>
+							<p>
+								
+								<br><br>
+								<i>June 2, 2014 (M)</i>
+							</p>
+						</div>
+
+
+						<div id='post5'>
+							<h1></h1>
+							<p>
+								
+								<br><br>
+								<i>May 30, 2014 (F)</i>
+							</p>
+						</div>
+
+
+						<div id='post4'>
+							<h1>a quiet thursday</h1>
+							<p>
+								
+								<br><br>
+								<i>May 29, 2014 (Th)</i>
+							</p>
+						</div>
+
+
+						<div id='post3'>
+							<h1>GraphPanel @ AOL!</h1>
+							<p>
+								Aileen brought me to a Mexican restaurant to take out lunch today. Guess everyone is busy rushing out deliverables. Good variety with relatively cheap items; got a Super Taco for $4, which Aileen nicely treated me to. Spent much of my time trying to build the Neo4j source code I cloned from Github. Pathetic me trying so hard to understand Linux commands and debugging outputs. The build took some time and processing power, really heavy project that I have no clue what it is exactly (still a novice programmer). Couldn't solve it even when the evening hit.. But I did manage to continue much of my readings, and I must say, databases are defnitely hooking me up. I sure am excited to dive deeper into the rich and dynamic spectrum of knowledge, yet very skeptical about my ability to apply.
+								<br><br>
+								Highlight of today has got to be the GraphPanel, held at AOL, Palo Alto. Took Richard's car down along with Andreas and met some other collegues there. Turn-out was a little below expectation - about 15 people, but the overall experience was nonetheless fruitful (at least for me) with <u>numerous takeaways</u>. Emil started off with an introduction to Neo4j. Very comical and refreshing presentation, much respect for our <i>darn good</i> CEO. Next came two tech representatives from start-ups that use Neo4j technology, who sat on the 'panel' with Andreas as the moderator. It was a highly informative session for me as I picked up countless ideas that are empowering the tech start-up scene, but a little too much for my tiny brain to absorb in an hour. jotted key phrases down, and hoping to uncover their real potential with some <u>research and internalization</u>. 
+								<br><br>
+								Ended the night (phew, finally!) with a bus ride home on 522. Fast and convenient service from Palo Alto (as Nitya always says).
+								<br><br>
+								<i>May 28, 2014 (W)</i>
+							</p>
+						</div>
+
+
+						<div id='post2'>
+							<h1>first embarkment.</h1>
+							<p>
+								Today marks the first day of my internship at Neo4j. Yh nicely fetched me to the doorstep of my office on a lovely Tuesday morning. Excited yet apprehensive I was. The office was packed when I entered, and Aileen helped to greet and orientate me in the absence of Andreas. She was a really sweet and humble lady. Also saw many familiar faces from the meet-up at SF couple of weeks back, and definitely helped to ease some tension in me. The people were (I'm not surprised) highly friendly, and almost ev one came up to me and introduce themselves with that huge beam. Contrasting with what Junyi said, "(I) haven't interacted with anyone else in my office", I guess I should really appreciate this welcoming culture here. Got a Neo4j t-shirt (yay!) and email addr, gearing up for the summer!
+								<br><br>
+								Started off completing my online tutorial of Cypher, the declarative query language for Neo4j. Had much fun playing around with their online interactive prompt and code samples. Clear, comprehensive and intuitive - awesome tutorial. Went on to install the Neo4j community version, and ran the browser interface that connects to the Neo4j server. The numerous visualization elements present enhanced the user experience very effectively. Kudos! (Heard that Andreas is the master behind the Browser implementation, definitely proud to be able to learn from him)
+								<br><br>
+								With the early-week crowd in the office, a huge group of us (10 people) gathered to have lunch at a nearby Korean restaurant (Gan Dam Chicken) #omgBibimbap. Anyway, this area is insanely saturated with food places, many of which are Asian cuisines (Jap, HK, Sze Chuan, Thai, Korean). Price range varies pretty widely too. This restaurant isn't as economical, with dishes costing $10-$15 on average. Decent food and service though, loved the Bibimbap. Best part of the afternoon? Chris treated us to the meal! I was quite surprised cause it didn't feel like we were dining for any particular reason. I even whispered to Adam, "don't we have to pay for our meal?" 
+								<br><br>
+								Andreas and much of the team seemed pretty held up, I suppose with the impending release of Neo4j 2.1 and the GraphPanel event taking place tmr evening. Hence I went ahead to read -numerous- articles on Neo4j, focusing much on the existing use cases. As expected from the web's highly sophisticated recommendations engine (btw that's one use case too), I slowly expanded my search radius to cover various related content <i>(insert link to tech blogpost)</i>. Felt like I <u>learnt exponentially about databases</u>, with much pleasure.
+								<br><br>
+								Caltrain-ed down to Redwood City and car pool-ed back with Yh, very convenient. We whipped up our first four-person home-cooked meal tonight, and it was wholesome (very healthy too)! Loving this, although we spent much more time cooking than eating. I didn't contribute much to the meal cause Yh and Nitya make way better chefs, but I cut a whole pineapple! Still proud.
+								<br><br>
+								<i>May 27, 2014 (T)</i>
+							</p>
+						</div>
+
+
+						<div id='post1'>
+							<h1>the battle.</h1>
+							<p>
+								i'm fighting the battle inside me. when will i finally surrender?
+								<br><br>
+								waking up facing a brand new day before me (well, isn't really a nice day given that i have a cs161 paper later tonight..) wasn't the least pleasant. last night was a horror battle. so painful. so disgusting. i asked myself, if someone is dying right now, and i have the chance to exchange my life for hers, would i? with conviction, i would.
+								<br><br>
+								am i being selfish? what others see is me recklessly causing pain to people who love me. but really, who sees or understands the internal battle i fight all the time? who truly comprehends my pain? who is the selfish one? they are blessed with the strength to cope with stress and sorrow, not me. i am the less endowed one. but life's unfair, suck it up. this is my life, i decide when it's worth and when it's not worth living.
+								<br><br>
+								maybe one day, i would finally surrender.
+								<br><br>
+								<i>May 14, 2014</i>
+							</p>
+
+						</div>
+					</div> <!-- end of personal_posts -->
+
+
+					<div class='tech_posts'>
+						<div id='tp3'>
+							<h1></h1>
+							<p>
+								
+								<br><br>
+								<i>June 3, 2014 (T)</i>
+							</p>
+						</div>
+
+
+						<div id='tp2'>
+							<h1></h1>
+							<p>
+								
+								<br><br>
+								<i>June 2, 2014 (M)</i>
+							</p>
+						</div>
+
+
+						<div id='tp1'>
+							<h1></h1>
+							<p>
+								
+								<br><br>
+								<i>May 30, 2014 (F)</i>
+							</p>
+						</div>
+
+					</div> <!-- end of technical_posts -->
+				</div> <!-- end of posts (personal and technical) -->
+			</div> <!-- end of right-main-col -->
+		</div> <!-- end of main-page -->
+
+		<div id='footer'>
+			<div id='footer_logo'><img class="img_scaled" src="assets/icons/logo_dark.svg" /></div>
+			<div id='footer_title'>Hac-ky |</div>
+			<div id='footer_endnote'>Unveiling the art and science of tech.</div>
+			<div id='footer_copyright'>Website design by May Lim.</div>
+		</div>
+	</div>
+</body>
+

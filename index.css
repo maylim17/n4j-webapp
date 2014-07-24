@@ -1,0 +1,124 @@
+/*@font-face
+{
+	font-family: 'josefin-light';
+	src: url(http://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+}*/
+
+body 
+{
+	background-color:#000000;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#container
+{
+    margin: 0 auto 0 auto;
+    padding: 0px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#main-page
+{
+    min-width:100%;
+    position: absolute;
+}
+
+#left-main-col
+{
+	position: absolute;
+	right: 62.5%;
+}
+
+#left-sub-col
+{
+	/*position: fixed;*/
+	position: absolute;
+	right: 62.5%;
+	top: 360px;
+}
+
+#main-msg
+{
+	color: white;
+	text-align: center;
+    font-family: 'Josefin Sans', Arial;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#right-main-column
+{
+	position: absolute;
+	left: 39%;
+    background: #333333;
+    /*border-style: solid;
+    border-color: white;
+    border-width: 1px;*/
+	height: 2000px;
+	width: 530px;
+}
+
+#right-main-column 
+{
+    color: white;
+    font-family: 'Josefin Sans', Arial;
+    line-height: 150%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+img.cover
+{
+	width: 250px;
+}
+
+#link1
+{
+	background-color: #4D4D4D;
+	color: white;
+	font-weight: 600;
+}
+
+button.link 
+{
+    color: #CCCCCC;
+	background-color: black;
+    font-family: 'Josefin Sans', Arial;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 6px;
+    border-style: solid;
+    border-color: #CCCCCC;
+    border-width: 1px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    height: 35px;
+    width: 250px;
+    cursor: pointer;
+}
+
+/*#footer
+{
+    color: white;
+    font-family: 'Josefin Sans', Arial;
+    clear: both;
+    width: 100%;
+    position: absolute;
+    bottom: 1%;
+    height: 80px;
+    background:#ee5;
+}*/
+
+.fixed {
+    position: fixed; 
+    top: 0; 
+    height: 70px; 
+    z-index: 1;
+}
+
